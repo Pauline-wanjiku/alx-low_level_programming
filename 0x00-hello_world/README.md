@@ -29,3 +29,13 @@ gcc -c $CFILE
 #!/bin/bash
 gcc -S $CFILE
 ```
+
+#### 3. Name
+
+** script that compiles a C file and creates an executable named cisfun.**
+
+- The C file name will be saved in the variable $CFILE
+```
+#!/bin/bash
+gcc $CFILE -o cisfun
+```
