@@ -6,5 +6,5 @@
 - The output should be saved in the file c
 ```
 #!/bin/bash
-gcc $CFILE -o c
+gcc -E $CFILE -o c
 ```
