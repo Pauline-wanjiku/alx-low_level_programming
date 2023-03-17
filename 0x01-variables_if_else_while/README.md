@@ -76,3 +76,33 @@ printf("Last digit of %d is %d and is less than 6 and not 0\n", n, last_digit);
 return (0);
 }
 ```
+#### 2. I sometimes suffer from insomnia. And when I can't fall asleep, I play what I call the alphabet game
+
+**2. I sometimes suffer from insomnia. And when I can't fall asleep, I play what I call the alphabet game**
+- You can only use the putchar function (every other function (printf, puts, etc…) is forbidden)
+- All your code should be in the main function
+- You can only use putchar twice in your code
+```
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+/* betty style doc for function main goes there */
+/**
+ *main - Entry point
+ *Return: Always 0 (Success)
+ */
+int main(void)
+{
+        char ch;
+
+        for(ch = 'A' ; ch <= 'Z' ; ch++) 
+     
+        putchar(ch);
+        putchar('/n);
+
+     
+        return(0)
+
+}
+```
