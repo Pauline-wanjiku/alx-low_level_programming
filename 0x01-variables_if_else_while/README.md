@@ -189,3 +189,30 @@ int main(void)
         return (0);
 }
 ```
+#### 6. Numberz
+**program that prints all single digit numbers of base 10 starting from 0, followed by a new line.**
+
+- You are not allowed to use any variable of type char
+- You can only use the putchar function (every other function (printf, puts, etc…) is forbidden)
+- You can only use putchar twice in your code
+- All your code should be in the main function
+
+```
+#include <stdio.h>
+
+/**
+ *main - Prints all single digit numbers of base 10 starting 0.
+ *
+ *Return: Always 0 (Success)
+ */
+
+int main(void)
+{
+        int numbers;
+
+        for (numbers = 0 ; numbers < 10 ; numbers++)
+                putchar (numbers + '0');
+        putchar ('\n');
+        return (0);
+}
+```
