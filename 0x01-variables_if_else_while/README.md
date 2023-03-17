@@ -106,3 +106,33 @@ int main(void)
 
 }
 ```
+#### 3. alphABET
+**program that prints the alphabet in lowercase, and then in uppercase, followed by a new line.**
+
+- You can only use the putchar function (every other function (printf, puts, etc…) is forbidden)
+- All your code should be in the main function
+- You can only use putchar three times in your code
+
+```
+#include <stdio.h>
+
+/**
+ *main - program that prints the alphabet in lowercase, and then in uppercase, followed by a new line.
+ *Return: Always 0 (Success)
+ */
+
+
+int main(void)
+{
+        char alphabet;
+
+        for (alphabet = 'a' ; alphabet < 'z'; alphabet++)
+                putchar (alphabet);
+putchar ('\n');
+        for (alphabet = 'A' ; alphabet < 'Z'; alphabet++)
+                putchar (alphabet);
+putchar ('\n');
+
+        return (0);
+}
+```
