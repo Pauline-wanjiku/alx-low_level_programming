@@ -36,7 +36,7 @@ printf("%d is negative\n", n);
 return (0);
 }
 ```
-# 1. The last digit
+#### 1. The last digit
 **This program will assign a random number to the variable n each time it is executed. Complete the source code in order to print the last digit of the number stored in the variable n.**
 
 - You can find the source code here
@@ -216,7 +216,14 @@ int main(void)
         return (0);
 }
 ```
+#### 7. Smile in the mirror
+**program that prints the lowercase alphabet in reverse, followed by a new line.**
 
+- You can only use the putchar function (every other function (printf, puts, etc…) is forbidden)
+- All your code should be in the main function
+- You can only use putchar twice in your code
+
+```
 #include <stdio.h>
 
 /**
@@ -234,6 +241,7 @@ int main(void)
         return (0);
 }
 ```
+
 ### 8. Hexadecimal
 
 **Write a program that prints all the numbers of base 16 in lowercase, followed by a new line.**
