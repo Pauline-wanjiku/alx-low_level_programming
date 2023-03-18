@@ -242,7 +242,7 @@ int main(void)
 }
 ```
 
-### 8. Hexadecimal
+#### 8. Hexadecimal
 
 **Write a program that prints all the numbers of base 16 in lowercase, followed by a new line.**
 
