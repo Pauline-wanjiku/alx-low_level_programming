@@ -222,3 +222,35 @@ int _abs(int n)
         return (n);
 }
 ```
+#### 7. There are only 3 colors, 10 digits, and 7 notes; it's what we do with them that's important
+
+function that prints the last digit of a number.
+
+- Prototype: int print_last_digit(int);
+- Returns the value of the last digit
+
+```
+#include "main.h"
+
+/**
+  * print_last_digit - Prints the last digit of a number
+  * @n: The number to be treated
+  *
+  * Return: Value of the last digit of number
+  */
+
+int print_last_digit(int n)
+{
+        int lastDigit;
+
+        lastDigit = n % 10;
+
+        if (lastDigit < 0)
+        {
+                lastDigit *= -1;
+        }
+        _putchar(lastDigit + '0');
+
+        return (lastDigit);
+}
+```
