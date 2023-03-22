@@ -330,3 +330,25 @@ void times_table(void)
         }
 }
 ```
+#### 10. a + b
+ function that adds two integers and returns the result.
+
+- Prototype: int add(int, int);
+
+```
+#include "main.h"
+
+/**
+  * add - Adds two values
+  * @num1: The first number to be computed
+  * @num2: The second number to be computed
+  *
+  * Return: Integer value
+  */
+
+int add(int num1, int num2)
+{
+        return (num1 + num2);
+}
+
+```
