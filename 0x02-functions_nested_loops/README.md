@@ -484,4 +484,38 @@ int main(void)
         return (0);
 }
 ```
+#### 14. In computer class, the first assignment was to write a program to print the first 100 Fibonacci numbers. Instead, I wrote a program that would steal passwords of students. My teacher gave me an A.
 
+program that prints the first 50 Fibonacci numbers, starting with 1 and 2, followed by a new line.
+
+- The numbers must be separated by comma, followed by a space , 
+- You are allowed to use the standard library
+
+```
+#include <stdio.h>
+
+/**
+ *main - Prints the add of the Fibonacci numbers
+ *
+ * Return: Always 0.
+ */
+int main(void)
+{
+        int c;
+        long int n1, n2, fn;
+
+        n1 = 1;
+        n2 = 2;
+        printf("%ld, %ld", n1, n2);
+        for (c = 0; c < 48; c++)
+        {
+                fn = n1 + n2;
+                printf(", %ld", fn);
+                n1 = n2;
+                n2 = fn;
+        }
+        printf("\n");
+        return (0);
+}
+
+```
