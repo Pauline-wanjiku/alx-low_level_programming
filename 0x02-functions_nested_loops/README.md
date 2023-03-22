@@ -191,3 +191,34 @@ int print_sign(int n)
 }
 
 ```
+#### 6. There is no such thing as absolute value in this world. You can only estimate what a thing is worth to you
+
+ function that computes the absolute value of an integer.
+
+- Prototype: int _abs(int);
+*The standard library provides a similar function: abs. Run ``` man abs ``` to learn more.
+
+```
+#include "main.h"
+
+/**
+  * _abs - Computes the absolute value of an integer.
+  * @c: The number to be computed.
+  *
+  * Return: Absolute value of number or zero
+  */
+
+int _abs(int n)
+{
+        if (n < 0)
+        {
+                int absolValue;
+
+                absolValue = n * -1;
+
+                return (absolValue);
+        }
+
+        return (n);
+}
+```
