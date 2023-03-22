@@ -62,4 +62,36 @@ _putchar(alphabets);
 _putchar('\n');
 }
 ```
+#### 2. 10 x alphabet
+function that prints 10 times the alphabet, in lowercase, followed by a new line.
 
+- Prototype: void print_alphabet_x10(void);
+- You can only use _putchar twice in your code
+
+```
+#include "main.h"
+
+/**
+ * print_alphabet_x10 - prints 10 times the alphabet, in lowercase,
+ * followed by a new line
+ */
+void print_alphabet_x10(void)
+{
+        char alphabet;
+        int intial;
+
+        intial = 0;
+
+        while (intial < 10)
+        {
+                alphabet = 'a';
+                while (alphabet <= 'z')
+                {
+                        _putchar(alphabet);
+                        alphabet++;
+                }
+                _putchar('\n');
+                intial++;
+        }
+}
+```
