@@ -1,9 +1,0 @@
-
-void print_alphabet(){
-        char alphabets;
-        for( alphabets = 'a' ; aphabets <= 'z' ; alphabets++)
-        {
-                _putchar(c);
-        }
-        _putchar('\n');
-}
