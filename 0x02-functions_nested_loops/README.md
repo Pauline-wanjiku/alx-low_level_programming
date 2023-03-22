@@ -124,3 +124,32 @@ int _islower(int c)
         }
 }
 ```
+
+#### 4. isalpha
+
+ function that checks for alphabetic character.
+
+- Prototype: int _isalpha(int c);
+- Returns 1 if c is a letter, lowercase or uppercase
+- Returns 0 otherwise
+
+```
+#include "main.h"
+/**
+  * _isalpha - Checks for alphabetic character
+  * @c: The character to be checked
+  *
+  * Return: 1 for alphabetic character or 0 for anything else
+  */
+
+int _isalpha(int c)
+{
+        if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
+        {
+                return (1);
+        }
+        return (0);
+}
+
+```
+
