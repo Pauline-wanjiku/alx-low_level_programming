@@ -189,3 +189,42 @@ void more_numbers(void)
         }
 }
 ```
+
+#### 6. The shortest distance between two points is a straight line
+function that draws a straight line in the terminal.
+
+- Prototype: void print_line(int n);
+- You can only use _putchar function to print
+- Where n is the number of times the character _ should be printed
+- The line should end with a \n
+- If n is 0 or less, the function should only print \n
+
+```
+#include "main.h"
+#include <stdio.h>
+
+/**
+*print_line - draws a straight line in the terminal.
+*@n - number of times _ should be printed.
+* Return: Always 0.
+ */
+
+void print_line(int n)
+{
+        int x;
+
+        if (n <= 0)
+        {
+                _putchar('\n');
+        }
+        else
+        {
+                for (x = 0; x < n; x++)
+                {
+                        _putchar(95);
+                }
+
+                _putchar('\n');
+        }
+}
+```
