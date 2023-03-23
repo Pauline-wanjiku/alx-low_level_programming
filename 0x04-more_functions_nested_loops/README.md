@@ -40,3 +40,33 @@ int _isupper(int c)
         return (0);
 } 
 ```
+
+#### 1. isdigit
+
+function that checks for a digit (0 through 9).
+
+- Prototype: int _isdigit(int c);
+- Returns 1 if c is a digit
+- Returns 0 otherwise
+- The standard library provides a similar function: isdigit. Run man isdigit to learn more.
+
+```
+#include "main.h"
+#include <stdio.h>
+
+/**
+ *_isdigit-checks for a digit(0 through 9).
+ * @c:the character being checked
+ *
+ * Return:1-successful.
+ */
+
+int _isdigit(int c)
+{
+        if (c >= '0' && c <= '9')
+        {
+                return (1);
+        }
+        return (0);
+}
+```
