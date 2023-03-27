@@ -27,3 +27,27 @@ void reset_to_98(int *n)
         *n = 98;
 }
 ```
+#### 1. Don't swap horses in crossing a stream
+Write a function that swaps the values of two integers.
+
+- Prototype: void swap_int(int *a, int *b);
+```
+#include "main.h"
+#include <stdio.h>
+
+/**
+ *swap_int - swaps the values of two integers.
+ *@a:value to be swaped
+ * @b :value to be swaped with a
+ * Return: Always 0.
+ */
+
+void swap_int(int *a, int *b)
+{
+        int temp;
+
+        temp = *a;
+        *a = *b;
+        *b = temp;
+}
+```
