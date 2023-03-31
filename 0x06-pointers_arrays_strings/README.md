@@ -30,3 +30,12 @@ it will use at most n bytes from src; and
 function that concatenates two strings.
 
 [solution](/0x06-pointers_arrays_strings/1-strncat.c)
+
+#### 2. strncpy
+
+function that copies a string.
+
+- Prototype: char *_strncpy(char *dest, char *src, int n);
+- Your function should work exactly like strncpy
+
+[solution](/0x06-pointers_arrays_strings/2-strncpy.c)
