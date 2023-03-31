@@ -39,3 +39,12 @@ function that copies a string.
 - Your function should work exactly like strncpy
 
 [solution](/0x06-pointers_arrays_strings/2-strncpy.c)
+
+#### 3. strcmp
+ function that compares two strings.
+
+- Prototype: int _strcmp(char *s1, char *s2);
+- Your function should work exactly like strcmp
+
+[solution](/0x06-pointers_arrays_strings/3-strcmp.c)
+
