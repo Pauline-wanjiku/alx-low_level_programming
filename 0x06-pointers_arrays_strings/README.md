@@ -48,3 +48,17 @@ function that copies a string.
 
 [solution](/0x06-pointers_arrays_strings/3-strcmp.c)
 
+#### 4. I am a kind of paranoid in reverse. I suspect people of plotting to make me happy
+ function that reverses the content of an array of integers.
+
+- Prototype: void reverse_array(int *a, int n);
+- Where n is the number of elements of the array
+
+[solution](/0x06-pointers_arrays_strings/4-rev_array.c)
+
+#### 5. Always look up
+function that changes all lowercase letters of a string to uppercase.
+
+- Prototype: char *string_toupper(char *);
+[solution](/0x06-pointers_arrays_strings/5-string_toupper.c)
+
