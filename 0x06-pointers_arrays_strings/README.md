@@ -60,6 +60,7 @@ function that copies a string.
 function that changes all lowercase letters of a string to uppercase.
 
 - Prototype: char *string_toupper(char *);
+
 [solution](/0x06-pointers_arrays_strings/5-string_toupper.c)
 
 #### 6. Expect the best. Prepare for the worst. Capitalize on what comes
@@ -85,4 +86,15 @@ function that encodes a string into 1337.
 - You are not allowed to use any ternary operation
 
 [solution](/0x06-pointers_arrays_strings/7-leet.c)
+
+#### 8. rot13
+function that encodes a string using rot13.
+
+- Prototype: char *rot13(char *);
+- You can only use if statement once in your code
+- You can only use two loops in your code
+- You are not allowed to use switch
+- You are not allowed to use any ternary operation
+
+[solution](/0x06-pointers_arrays_strings/100-rot13.c)
 
