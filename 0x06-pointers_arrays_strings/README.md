@@ -62,3 +62,11 @@ function that changes all lowercase letters of a string to uppercase.
 - Prototype: char *string_toupper(char *);
 [solution](/0x06-pointers_arrays_strings/5-string_toupper.c)
 
+#### 6. Expect the best. Prepare for the worst. Capitalize on what comes
+function that capitalizes all words of a string.
+
+- Prototype: char *cap_string(char *);
+- Separators of words: space, tabulation, new line, ,, ;, ., !, ?, ", (, ), {, and }
+
+[solution](/0x06-pointers_arrays_strings/6-cap_string.c)
+
