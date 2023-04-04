@@ -25,3 +25,12 @@ function that copies memory area.
 
 [solution](/0x07. C - Even more pointers, arrays and strings/1-memcpy.c)
 
+#### 2-strchr.c
+function that locates a character in a string.
+
+- Prototype: char *_strchr(char *s, char c);
+- Returns a pointer to the first occurrence of the character c in the string s, or NULL if the character is not found
+- The standard library provides a similar function: strchr. Run man strchr to learn more.
+
+[solution](/0x07. C - Even more pointers, arrays and strings/2-strchr.c)
+
