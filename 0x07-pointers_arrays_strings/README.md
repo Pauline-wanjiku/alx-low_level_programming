@@ -34,3 +34,23 @@ function that locates a character in a string.
 
 [solution](/0x07. C - Even more pointers, arrays and strings/2-strchr.c)
 
+#### 3. strspn
+
+ function that gets the length of a prefix substring.
+
+- Prototype: unsigned int _strspn(char *s, char *accept);
+- Returns the number of bytes in the initial segment of s which consist only of bytes from accept
+
+[solution](/0x07. C - Even more pointers, arrays and strings/3-strspn.c)
+
+#### 4. strpbrk
+function that searches a string for any of a set of bytes.
+
+- Prototype: char *_strpbrk(char *s, char *accept);
+- The _strpbrk() function locates the first occurrence in the string s of any of the bytes in the string accept
+- Returns a pointer to the byte in s that matches one of the bytes in accept, or NULL if no such byte is found
+
+[solution](/0x07. C - Even more pointers, arrays and strings/4-strpbrk.c)
+
+
+
