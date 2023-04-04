@@ -79,3 +79,10 @@ You are allowed to use the standard library
 
 [solution](/0x07. C - Even more pointers, arrays and strings/8-print_diagsums.c)
 
+#### 8. Double pointer, double fun
+function that sets the value of a pointer to a char.
+
+- Prototype: void set_string(char **s, char *to);
+
+[solution](/0x07. C - Even more pointers, arrays and strings/100-set_string.c)
+
