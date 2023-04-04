@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- *_chessboard- that prints the chessboard.
+ *print_chessboard- that prints the chessboard.
+ *@a:pointer
  *Return 0
  */
 
