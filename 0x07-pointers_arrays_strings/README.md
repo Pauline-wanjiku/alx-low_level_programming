@@ -16,3 +16,12 @@ FYI: The standard library provides a similar function: memset. Run man memset to
 
 [solution](/0x07. C - Even more pointers, arrays and strings/0-memset.c)
 
+#### 1. memcpy
+function that copies memory area.
+
+- Prototype: char *_memcpy(char *dest, char *src, unsigned int n);
+- The _memcpy() function copies n bytes from memory area src to memory area dest
+- Returns a pointer to dest
+
+[solution](/0x07. C - Even more pointers, arrays and strings/1-memcpy.c)
+
