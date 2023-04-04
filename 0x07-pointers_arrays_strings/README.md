@@ -52,5 +52,30 @@ function that searches a string for any of a set of bytes.
 
 [solution](/0x07. C - Even more pointers, arrays and strings/4-strpbrk.c)
 
+#### 5. strstr
 
+function that locates a substring.
+
+- Prototype: char *_strstr(char *haystack, char *needle);
+- The _strstr() function finds the first occurrence of the substring needle in the string haystack. The terminating null bytes (\0) are not compared
+- Returns a pointer to the beginning of the located substring, or NULL if the substring is not found.
+
+[solution](/0x07. C - Even more pointers, arrays and strings/5-strstr.c)
+
+#### 6. Chess is mental torture
+function that prints the chessboard.
+
+- Prototype: void print_chessboard(char (*a)[8]);
+
+[solution](/0x07. C - Even more pointers, arrays and strings/7-print_chessboard.c)
+
+#### 7. The line of life is a ragged diagonal between duty and desire
+
+ function that prints the sum of the two diagonals of a square matrix of integers.
+- Prototype: void print_diagsums(int *a, int size);
+- Format: see example
+You are allowed to use the standard library
+- Note that in the following example we are casting an int[][] into an int*. This is not something you should do. The goal here is to make sure you understand how an array of array is stored in memory.
+
+[solution](/0x07. C - Even more pointers, arrays and strings/8-print_diagsums.c)
 
