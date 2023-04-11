@@ -7,7 +7,7 @@
  *@height:height of the array
  *Return: NULL if fail, if width or height <=0 return null
  */
- 
+
 int **alloc_grid(int width, int height)
 {
 	int **ar;
