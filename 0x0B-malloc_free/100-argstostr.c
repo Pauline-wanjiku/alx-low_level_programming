@@ -3,12 +3,12 @@
 
 /**
  *argstostr-function that concatenates all the arguments of your program.
- *@ac-argument1
- *@av-argument2
- *Return:NULL if ac == 0 or av == NULL  
+ *@ac:argument1
+ *@av:argument2
+ *Return:NULL if ac == 0 or av == NULL
  *pointer to a new string, or NULL if it fails
  */
- 
+
 char *argstostr(int ac, char **av)
 {
 	int i, n, r = 0, l = 0;
