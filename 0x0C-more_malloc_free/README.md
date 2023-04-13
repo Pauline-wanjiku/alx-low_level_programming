@@ -5,6 +5,8 @@
 - What are the functions calloc and realloc from the standard library and how to use them
 
 ### Tasks
+
+#### 0. Trust no one
 function that allocates memory using malloc.
 
 - Prototype: void *malloc_checked(unsigned int b);
@@ -13,7 +15,7 @@ function that allocates memory using malloc.
 
 [solution](/0x0C-more_malloc_free/0-malloc_checked.c)
 
-### 1. string_nconcat
+#### 1. string_nconcat
 
 Write a function that concatenates two strings.
 
@@ -24,4 +26,17 @@ Prototype: char *string_nconcat(char *s1, char *s2, unsigned int n);
 - if NULL is passed, treat it as an empty string
 
 [solution](/0x0C-more_malloc_free/1-string_nconcat.c)
+
+#### 2. _calloc
+ function that allocates memory for an array, using malloc.
+
+Prototype: void *_calloc(unsigned int nmemb, unsigned int size);
+- The _calloc function allocates memory for an array of nmemb elements of size bytes each and returns a pointer to the allocated memory.
+The memory is set to zero
+- If nmemb or size is 0, then _calloc returns NULL
+- If malloc fails, then _calloc returns NULL
+
+[solution](/0x0C-more_malloc_free/2-calloc.c)
+
+
 
