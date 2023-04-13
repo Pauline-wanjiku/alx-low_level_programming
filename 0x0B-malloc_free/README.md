@@ -47,3 +47,27 @@ function that frees a 2 dimensional grid previously created by your alloc_grid f
 
 [solution](/0x0B-malloc_free/4-free_grid.c)
 
+#### 5. It isn't the mountains ahead to climb that wear you out; it's the pebble in your shoe
+
+function that concatenates all the arguments of your program.
+
+- Prototype: char *argstostr(int ac, char **av);
+- Returns NULL if ac == 0 or av == NULL
+- Returns a pointer to a new string, or NULL if it fails
+- Each argument should be followed by a \n in the new string
+
+[solution](/0x0B-malloc_free/100-argstostr.c)
+
+#### 6. I will show you how great I am
+function that splits a string into words.
+
+- Prototype: char **strtow(char *str);
+- The function returns a pointer to an array of strings (words)
+- Each element of this array should contain a single word, null-terminated
+- The last element of the returned array should be NULL
+Words are separated by spaces
+- Returns NULL if str == NULL or str == ""
+- If your function fails, it should return NULL
+
+[solution](/0x0B-malloc_free/101-strtow.c)
+
