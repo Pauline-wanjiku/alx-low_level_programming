@@ -38,5 +38,16 @@ The memory is set to zero
 
 [solution](/0x0C-more_malloc_free/2-calloc.c)
 
+#### 3. array_range
+ function that creates an array of integers.
+
+Prototype: int *array_range(int min, int max);
+- The array created should contain all the values from min (included) to max (included), ordered from min to max
+- Return: the pointer to the newly created array
+- If min > max, return NULL
+- If malloc fails, return NULL
+
+[solution](/0x0C-more_malloc_free/3-array_range.c)
+
 
 
