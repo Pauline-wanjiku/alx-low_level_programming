@@ -39,3 +39,14 @@ Define a new type dog_t as a new name for the type struct dog.
 
 [solution](/0x0E-structures_typedef/dog.h)
 
+#### 4. A door is what a dog is perpetually on the wrong side of
+ function that creates a new dog.
+
+Prototype: dog_t *new_dog(char *name, float age, char *owner);
+- You have to store a copy of name and owner
+- Return NULL if the function fails
+
+[solution](/0x0E-structures_typedef/4-new_dog.c)
+
+
+
