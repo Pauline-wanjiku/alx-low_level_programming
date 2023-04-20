@@ -8,6 +8,11 @@
 ### Tasks
 
 #### 0. What's my name
+function that prints a name.
+
+- Prototype: void print_name(char *name, void (*f)(char *));
+
+[solution](/0x0F-function_pointers/0-print_name.c)
 
 #### 1. If you spend too much time thinking about a thing, you'll never get it done
 
