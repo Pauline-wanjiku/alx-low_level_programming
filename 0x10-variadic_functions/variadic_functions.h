@@ -1,0 +1,3 @@
+#ifndef _VARIADIC_FUNCTION_H
+#define _VARIADIC_FUNCTION_H
+#endif /* _VARIADIC_FUNCTION_H */
