@@ -25,6 +25,16 @@ function that prints a name.
 [solution](/0x0F-function_pointers/1-array_iterator.c)
 
 #### 2. To hell with circumstances; I create opportunities
+ function that searches for an integer.
+
+- Prototype: int int_index(int *array, int size, int (*cmp)(int));
+- where size is the number of elements in the array array
+- cmp is a pointer to the function to be used to compare values
+- int_index returns the index of the first element for which the cmp function does not return 0
+- If no element matches, return -1
+- If size <= 0, return -1
+
+[solution](/0x0F-function_pointers/2-int_index.c)
 
 #### 3. A goal is not always meant to be reached, it often serves simply as something to aim at
 
